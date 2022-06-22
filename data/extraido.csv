@@ -1,0 +1,515 @@
+    ,nome                                     ,qtde   ,unidade ,vl_unit ,vl_total ,conta_despesa                                       ,data_transacao
+  0 ,REFRIG.SCHWEPPES TONICA SACUC.LT.350ML   , 1.0   ,UN      ,  2.59  ,    2.59 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  1 ,AGUA TONICA ANTAR.SACUCARES 350ML        , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  2 ,AGUA TONICA ANTAR.LT.350ML               , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  3 ,OLEO DE SOJA SUAVIT PET 900ML            , 1.0   ,UN      ,  8.49  ,    8.49 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  4 ,RACAO FRISKIES CARNE AO MOLHO 85GR       , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  5 ,RACAO FRISKIES CARNE AO MOLHO 85GR       , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  6 ,RACAO FRISKIES CARNE AO MOLHO 85GR       , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  7 ,FAROFA YOKI MAND.500GR                   , 1.0   ,UN      ,  6.99  ,    6.99 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  8 ,MASSA PTAPIOCA BEIJUBOM 500GR            , 1.0   ,UN      ,  5.99  ,    5.99 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+  9 ,EXT.TOMATE FUGINI SACH.300GR             , 1.0   ,UN      ,  2.29  ,    2.29 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 10 ,MOLHO QUERO PRONTO TRAD.SACHET 340GR     , 1.0   ,UN      ,  1.59  ,    1.59 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 11 ,MOLHO QUERO PRONTO TRAD.SACHET 340GR     , 1.0   ,UN      ,  1.59  ,    1.59 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 12 ,AREIA PIPICAT CLASSIC 4KG                , 1.0   ,UN      ,  9.99  ,    9.99 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 13 ,FILE DE PEITO SEARA RESFR.BAND.KG        , 0.72  ,KG      , 26.99  ,   19.43 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 14 ,FILE DE PEITO SEARA RESFR.BAND.KG        , 0.692 ,KG      , 26.99  ,   18.67 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 15 ,FILE DE SOBRECOXA SEM PELE SEARA KG      , 0.696 ,KG      , 21.99  ,   15.3  ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 16 ,CEBOLA KG                                , 0.67  ,KG      ,  4.99  ,    3.34 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 17 ,CENOURA KG                               , 0.45  ,KG      ,  9.99  ,    4.49 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 18 ,TOMATE KG                                , 0.555 ,KG      , 13.99  ,    7.76 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 19 ,ABACATE KG                               , 0.905 ,KG      ,  7.99  ,    7.23 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 20 ,MAC.RENATA COVOS NINHO 2 500GR           , 1.0   ,UN      ,  5.49  ,    5.49 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 21 ,MAC.TODESCHINI COVOS PENA 500GR          , 1.0   ,UN      ,  3.89  ,    3.89 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 22 ,QUEIJO TIROLEZ MUSS.KG                   , 0.096 ,KG      , 39.9   ,    3.83 ,SUPERMERCADOS FESTVAL                               ,27/03/2022 18:58:49
+ 23 ,ACUCAR UNIAO REF.1KG                     , 1.0   ,UN      ,  4.29  ,    4.29 ,SUPERMERCADOS FESTVAL                               ,02/04/2022 16:32:53
+ 24 ,CHOC.NESTLE 90G L3P2                     , 1.0   ,UN      , 11.98  ,   11.98 ,SUPERMERCADOS FESTVAL                               ,02/04/2022 16:32:53
+ 25 ,MARG.DORIANA SSAL 500GR                  , 1.0   ,UN      ,  7.89  ,    7.89 ,SUPERMERCADOS FESTVAL                               ,02/04/2022 16:32:53
+ 26 ,QUEIJO POLENGHI A QUEIJ.PARMENTINO KG    , 0.2   ,KG      , 85.9   ,   17.18 ,SUPERMERCADOS FESTVAL                               ,02/04/2022 16:32:53
+ 27 ,LEITE COND.FRIMESA TP.395GR              , 1.0   ,UN      ,  5.99  ,    5.99 ,SUPERMERCADOS FESTVAL                               ,02/04/2022 16:32:53
+ 28 ,ACHOC.NESCAU 370GR                       , 1.0   ,UN      ,  6.99  ,    6.99 ,SUPERMERCADOS FESTVAL                               ,02/04/2022 16:32:53
+ 29 ,ETANOL COMUM                             ,17.575 ,l       ,  5.69  ,  100.0  ,POSTO FAROL DO PARQUE                               ,06/04/2022 06:31:38
+ 30 ,MINI ENROLADINHO DE SALSICHA KG          , 0.136 ,KG      , 34.98  ,    4.76 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 31 ,SONHO DOCE LEITE KG                      , 0.14  ,KG      , 27.98  ,    3.92 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 32 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.18  ,KG      , 27.98  ,    5.04 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 33 ,PAO QUEIJO RICO PALADAR P.KG             , 0.162 ,KG      , 25.98  ,    4.21 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 34 ,GOIABADA KG                              , 0.332 ,KG      , 14.48  ,    4.81 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 35 ,VINAGRE ARROZ CASTELO 750ML              , 1.0   ,UN      ,  6.98  ,    6.98 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 36 ,CHA MATTE LEAO 40G C25 ORIGINAL          , 1.0   ,CX      ,  3.98  ,    3.98 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 37 ,CHA PRETO LEAO 16G C10                   , 1.0   ,UN      ,  3.89  ,    3.89 ,SUPERMERCADO JACOMAR LTDA                           ,04/04/2022 12:51:14
+ 38 ,SALGADINHOS RIZOLLI KG                   , 0.35  ,KG      , 44.9   ,   15.72 ,CONDOR SUPER CENTER LTDA                            ,30/03/2022 16:27:12
+ 39 ,SACO PLIXO DOVER ROLL REC.ROLO 50L C20   , 1.0   ,UN      , 24.9   ,   24.9  ,CONDOR SUPER CENTER LTDA                            ,30/03/2022 16:27:12
+ 40 ,Cheddar ALC                              , 1.0   ,UN      , 12.9   ,   12.9  ,ARCOS DOURADOS COMERCIO DE ALIMENTOS SA             ,06/04/2022 18:13:10
+ 41 ,Quarterao ALC                            , 1.0   ,UN      , 12.9   ,   12.9  ,ARCOS DOURADOS COMERCIO DE ALIMENTOS SA             ,06/04/2022 18:13:10
+ 42 ,PAO FRANCES KG                           , 0.522 ,KG      , 11.99  ,    6.25 ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:24:45
+ 43 ,BATATA PALHA YOKI EXTRA FINA 100GR       , 1.0   ,UN      ,  5.99  ,    5.99 ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:24:45
+ 44 ,EASY DRINKS FRUTAS VERMELHAS 100G        , 1.0   ,UN      , 10.99  ,   10.99 ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:24:45
+ 45 ,MILHO KNORR.LT.170GR                     , 1.0   ,UN      ,  3.49  ,    3.49 ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:24:45
+ 46 ,VODKA SMIRNOFF 998ML                     , 1.0   ,UN      , 32.9   ,   32.9  ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:24:45
+ 47 ,FIO DENTAL JOHNSON ESSENCIAL MENTA 100M  , 1.0   ,UN      , 11.99  ,   11.99 ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:24:45
+ 48 ,MAC CHEESE SEARA TRAD.300GR              , 1.0   ,UN      ,  9.69  ,    9.69 ,SUPERMERCADOS FESTVAL                               ,18/02/2022 20:50:11
+ 49 ,SUCO FESTVAL LIMONADA 900ML              , 1.0   ,UN      ,  4.99  ,    4.99 ,SUPERMERCADOS FESTVAL                               ,18/02/2022 20:50:11
+ 50 ,BANANA CATURRA KG                        , 0.705 ,KG      ,  3.99  ,    2.81 ,SUPERMERCADOS FESTVAL                               ,18/02/2022 20:50:11
+ 51 ,COLA SUPER BONDER PRECISAO 5GR           , 1.0   ,UN      , 15.99  ,   15.99 ,SUPERMERCADOS FESTVAL                               ,18/02/2022 20:50:11
+ 52 ,CERV.EISENBAHN PILSEN LN.355ML L6P5      , 1.0   ,UN      , 19.95  ,   19.95 ,SUPERMERCADOS FESTVAL                               ,18/02/2022 20:50:11
+ 53 ,HOT POCKET SADIA X BURGUER 145GR         , 1.0   ,UN      ,  6.29  ,    6.29 ,SUPERMERCADOS FESTVAL                               ,18/02/2022 20:50:11
+ 54 ,SUCO FESTVAL LARANJA 900ML               , 1.0   ,UN      ,  5.99  ,    5.99 ,SUPERMERCADOS FESTVAL                               ,25/02/2022 17:40:40
+ 55 ,COUSCOUS ITA.PAGANINI 500GR              , 1.0   ,UN      , 16.98  ,   16.98 ,SUPERMERCADOS FESTVAL                               ,25/02/2022 17:40:40
+ 56 ,CHOC.KINDER BUENO 2UN                    , 1.0   ,UN      ,  7.69  ,    7.69 ,SUPERMERCADOS FESTVAL                               ,08/03/2022 20:30:54
+ 57 ,REFRIG COCA COLA PET 1                   , 1.0   ,UN      ,  5.69  ,    5.69 ,FADALEAL SUPERMERCADOS LTDA                         ,28/02/2022 20:27:58
+ 58 ,SUCO FESTVAL LARANJA 900ML               , 1.0   ,UN      ,  7.99  ,    7.99 ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 59 ,PAO INTEGRAL FESTVAL 500GR               , 1.0   ,UN      ,  7.99  ,    7.99 ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 60 ,PAO DE QUEIJO KG                         , 0.196 ,KG      , 49.9   ,    9.78 ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 61 ,PAO FRANCES KG                           , 0.401 ,KG      , 12.99  ,    5.2  ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 62 ,CR.DENTAL ORAL-B 123 70GR                , 1.0   ,UN      ,  3.89  ,    3.89 ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 63 ,CR.DENTAL ORAL-B 123 70GR                , 1.0   ,UN      ,  3.89  ,    3.89 ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 64 ,GENGIBRE KG                              , 0.09  ,KG      , 10.99  ,    0.98 ,SUPERMERCADOS FESTVAL                               ,26/03/2022 08:49:51
+ 65 ,D. CHURROS                               , 1.0   ,UND     , 12.0   ,   12.0  ,DOFFEE LANCHONETE LTDA                              ,10/03/2022 18:44:05
+ 66 ,GASOLINA ORIGINAL IPIRANGA Bico 18       ,41.942 ,L       ,  6.3   ,  264.23 ,AUTO POSTO ORTONA LTDA                              ,28/02/2022 16:21:10
+ 67 ,HIPER SANITIZANTE AUTOMOTIVO ASSEP 100ML , 1.0   ,UN      , 19.8   ,   19.8  ,AUTO POSTO ORTONA LTDA                              ,28/02/2022 16:21:10
+ 68 ,ETANOL COMUM                             ,17.575 ,l       ,  5.69  ,  100.0  ,POSTO FAROL DO PARQUE                               ,25/03/2022 06:27:57
+ 69 ,BANANA CATURRA KG                        , 3.18  ,KG      ,  2.98  ,    9.48 ,SUPERMERCADO JACOMAR LTDA                           ,23/03/2022 12:42:15
+ 70 ,MINI CHURROS DOCE DE LEITE KG            , 0.152 ,KG      , 31.99  ,    4.86 ,SUPERMERCADO JACOMAR LTDA                           ,23/03/2022 12:42:15
+ 71 ,MINI COXINHA DE FRANGO KG                , 0.088 ,KG      , 31.99  ,    2.82 ,SUPERMERCADO JACOMAR LTDA                           ,23/03/2022 12:42:15
+ 72 ,REFRIG.COCA COLA LATA 350ML              , 1.0   ,LT      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,23/03/2022 12:42:15
+ 73 ,CREME LEITE PIRACANJUBA TP 200G          , 1.0   ,UN      ,  3.68  ,    3.68 ,SUPERMERCADO JACOMAR LTDA                           ,23/03/2022 12:42:15
+ 74 ,SANDUICHE SALAME JACOMAR KG              , 0.208 ,KG      , 30.98  ,    6.44 ,SUPERMERCADO JACOMAR LTDA                           ,23/03/2022 12:42:15
+ 75 ,AGUA TONICA ANTARCTICA LT 350ML          , 1.0   ,UN      ,  2.79  ,    2.79 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 76 ,AGUA TONICA ANTARCTICA LT 350ML          , 1.0   ,UN      ,  2.79  ,    2.79 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 77 ,CERVEJA COLORADO APPIA GFA 600ML         , 1.0   ,UN      , 12.5   ,   12.5  ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 78 ,CERVEJA COLORADO RIBEIRAO LAGER 600ML    , 1.0   ,UN      , 12.5   ,   12.5  ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 79 ,AGUA TONICA ANTARCTICA LT 350ML          , 1.0   ,UN      ,  2.79  ,    2.79 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 80 ,AGUA TONICA ANTARCTICA LT 350ML          , 1.0   ,UN      ,  2.79  ,    2.79 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 81 ,CHOC NESTLE CLASSIC LEITE BR 90G         , 1.0   ,UN      ,  5.79  ,    5.79 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 82 ,CHOC NESTLE CLASSIC DUO BR 90G           , 1.0   ,UN      ,  5.79  ,    5.79 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 83 ,CHA LEAO PRETO CLIMAO CGAS LT 290ML      , 1.0   ,UN      ,  3.99  ,    3.99 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 84 ,PAO ANG BATATA CSALSICHA (LANCH)(I)      , 0.118 ,KG      , 37.9   ,    4.47 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 85 ,MANTEIGA BATAVO EXTRA CSAL TAB 200G      , 1.0   ,UN      ,  8.69  ,    8.69 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 86 ,MOLHO SAKURA TRADICIONAL PET 1L          , 1.0   ,UN      , 26.9   ,   26.9  ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 87 ,MACA GOLDEN IMPORTADA KG                 , 0.185 ,KG      , 10.5   ,    1.94 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 88 ,BANANA CATURRA KG                        , 0.98  ,KG      ,  4.99  ,    4.89 ,A. ANGELONI CIA LTDA                                ,28/02/2022 13:41:10
+ 89 ,Cheddar ALC                              , 1.0   ,UN      , 11.9   ,   11.9  ,ARCOS DOURADOS COMERCIO DE ALIMENTOS SA             ,21/03/2022 18:07:30
+ 90 ,Quarterao ALC                            , 1.0   ,UN      , 11.9   ,   11.9  ,ARCOS DOURADOS COMERCIO DE ALIMENTOS SA             ,21/03/2022 18:07:30
+ 91 ,SONHO GOIABADA KG                        , 0.052 ,KG      , 24.99  ,    1.3  ,SUPERMERCADO JACOMAR LTDA                           ,16/03/2022 12:39:32
+ 92 ,ESFIHA ABERTA SABORES KG                 , 0.16  ,KG      , 26.38  ,    4.22 ,SUPERMERCADO JACOMAR LTDA                           ,16/03/2022 12:39:32
+ 93 ,REFRIG.PEPSI COLA LATA 350ML             , 1.0   ,LT      ,  2.29  ,    2.29 ,SUPERMERCADO JACOMAR LTDA                           ,16/03/2022 12:39:32
+ 94 ,SANDUICHE SALAME JACOMAR KG              , 0.202 ,KG      , 30.98  ,    6.26 ,SUPERMERCADO JACOMAR LTDA                           ,16/03/2022 12:39:32
+ 95 ,LAYS SOUR CREAM 135G ELMA CHIPS G        , 1.0   ,PCE     , 10.99  ,   10.99 ,americanas sa - 1264                                ,06/03/2022 17:38:06
+ 96 ,FANTA UVA LATA 220ML                     , 1.0   ,PCE     ,  2.99  ,    2.99 ,americanas sa - 1264                                ,06/03/2022 17:38:06
+ 97 ,SPRITE LATA 350ML                        , 1.0   ,UN      ,  3.99  ,    3.99 ,americanas sa - 1264                                ,06/03/2022 17:38:06
+ 98 ,BALA GELATINA MINHOCAS 90G FINI          , 1.0   ,PCE     ,  4.99  ,    4.99 ,americanas sa - 1264                                ,06/03/2022 17:38:06
+ 99 ,AGUA MINERAL NATURAL S/G LEVEN MG 510ML  , 1.0   ,PCE     ,  1.99  ,    1.99 ,americanas sa - 1264                                ,06/03/2022 17:38:06
+100 ,SANDUICHE SALAME JACOMAR KG              , 0.186 ,KG      , 29.98  ,    5.58 ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+101 ,SONHO GOIABADA KG                        , 0.092 ,KG      , 24.99  ,    2.3  ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+102 ,ESFIHA ABERTA SABORES KG                 , 0.142 ,KG      , 26.38  ,    3.75 ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+103 ,PIMENTAO AMARELO KG                      , 0.265 ,KG      ,  9.98  ,    2.64 ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+104 ,PIMENTAO VERDE KG                        , 0.27  ,KG      ,  6.98  ,    1.88 ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+105 ,PIMENTAO VERMELHO KG                     , 0.26  ,KG      ,  9.98  ,    2.59 ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+106 ,MACA FUJI KG                             , 0.795 ,KG      ,  9.99  ,    7.94 ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+107 ,ABACATE KG                               , 1.17  ,KG      ,  5.98  ,    7.0  ,SUPERMERCADO JACOMAR LTDA                           ,23/02/2022 13:41:48
+108 ,SANDUICHE SALAME JACOMAR KG              , 0.162 ,KG      , 30.98  ,    5.02 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+109 ,MINI COXINHA DE FRANGO KG                , 0.138 ,KG      , 31.99  ,    4.41 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+110 ,ESFIHA ABERTA SABORES KG                 , 0.162 ,KG      , 23.98  ,    3.88 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+111 ,SAB.NIVEA HID.TALCO E OLEO AMENDOAS 85G  , 1.0   ,UN      ,  2.28  ,    2.28 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+112 ,SAB.NIVEA HID.TOQUE DE BAUNILHA 85G      , 1.0   ,UN      ,  2.28  ,    2.28 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+113 ,SAB.NIVEA HID.TALCO E OLEO AMENDOAS 85G  , 1.0   ,UN      ,  2.28  ,    2.28 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+114 ,SAB.NIVEA HID.LAVANDA 85G                , 1.0   ,UN      ,  2.28  ,    2.28 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+115 ,SAB.NIVEA HID.LAVANDA 85G                , 1.0   ,UN      ,  2.28  ,    2.28 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+116 ,SAB.NIVEA HID.TOQUE DE BAUNILHA 85G      , 1.0   ,UN      ,  2.28  ,    2.28 ,SUPERMERCADO JACOMAR LTDA                           ,11/03/2022 13:08:29
+117 ,GP SACHE GATO ATUM 85GR                  , 1.0   ,UN      ,  2.89  ,    2.89 ,Hiperzoo Pet Shop Ltda                              ,03/04/2022 17:07:55
+118 ,FRISKIES FRANGO AO MOLHO 85G.            , 1.0   ,UN      ,  2.59  ,    2.59 ,Hiperzoo Pet Shop Ltda                              ,03/04/2022 17:07:55
+119 ,FRISKIES PERU AO MOLHO 85G               , 1.0   ,UN      ,  2.59  ,    2.59 ,Hiperzoo Pet Shop Ltda                              ,03/04/2022 17:07:55
+120 ,FANCY FEAST DEMI GLACE FRANGO 85G        , 2.0   ,UN      ,  4.6   ,    9.2  ,Hiperzoo Pet Shop Ltda                              ,03/04/2022 17:07:55
+121 ,CROQUE MONSIEUR                          , 1.0   ,UND     , 34.0   ,   34.0  ,PRESTINARIA IND E COM DE ALIMENTOS LTDA             ,10/04/2022 12:39:27
+122 ,TOAST DE SALMAO DEFUMADO                 , 1.0   ,UND     , 36.0   ,   36.0  ,PRESTINARIA IND E COM DE ALIMENTOS LTDA             ,10/04/2022 12:39:27
+123 ,SUCO DE LARANJA                          , 1.0   ,UND     ,  9.0   ,    9.0  ,PRESTINARIA IND E COM DE ALIMENTOS LTDA             ,10/04/2022 12:39:27
+124 ,SUCO DE LARANJA COM GENGIBRE             , 1.0   ,UND     , 10.0   ,   10.0  ,PRESTINARIA IND E COM DE ALIMENTOS LTDA             ,10/04/2022 12:39:27
+125 ,TAXA DE SERVICO                          , 1.0   ,UND     ,  8.9   ,    8.9  ,PRESTINARIA IND E COM DE ALIMENTOS LTDA             ,10/04/2022 12:39:27
+126 ,BANANA CATURRA KG                        , 1.16  ,KG      ,  2.97  ,    3.45 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+127 ,LARANJA PERA KG                          , 0.91  ,KG      ,  3.19  ,    2.9  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+128 ,BATATA BRANCA KG                         , 0.64  ,KG      ,  5.79  ,    3.71 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+129 ,PIMENTAO VERDE KG                        , 0.335 ,KG      ,  7.99  ,    2.68 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+130 ,LIMAO TAHITI KG                          , 0.575 ,KG      ,  1.97  ,    1.13 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+131 ,TOMATE ITALIANO KG                       , 0.59  ,KG      , 11.99  ,    7.07 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+132 ,ALHO A GRANEL                            , 0.1   ,KG      , 21.9   ,    2.19 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+133 ,VAGEM MACARRAO KG                        , 0.155 ,KG      , 13.89  ,    2.15 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+134 ,CENOURA KG                               , 0.85  ,KG      , 10.59  ,    9.0  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+135 ,MAMAO FORMOSA KG                         , 1.545 ,KG      ,  8.89  ,   13.74 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+136 ,CEREAL SUCRILHOS TRAD.240G               , 1.0   ,UN      ,  9.29  ,    9.29 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+137 ,LEITE PIRACANJUBA REST.LAC.UHT 1L        , 1.0   ,UN      ,  4.89  ,    4.89 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+138 ,REFRIG.COCA COLA 1.5L PET                , 1.0   ,UN      ,  5.99  ,    5.99 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+139 ,AMAC.COMFORT EXPLOSAO AZUL 1.8L          , 1.0   ,UN      , 16.9   ,   16.9  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+140 ,CHA LEAO LIMAO 1.5L PET                  , 1.0   ,UN      ,  5.29  ,    5.29 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+141 ,BATATA MCCAIN TRAD.720G                  , 1.0   ,UN      , 13.79  ,   13.79 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+142 ,SUCO PURITY MRCJA 1L TP                  , 1.0   ,UN      ,  4.69  ,    4.69 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+143 ,CERV.PATAGONIA AMBER LAGER 473ML LA      , 6.0   ,UN      ,  4.99  ,   29.94 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+144 ,CHA LEAO REANIMA 10G                     , 1.0   ,UN      , 10.09  ,   10.09 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+145 ,PAO CHARLOTTE FERM.NAT.ATM.TRAD.400G     , 1.0   ,UN      ,  5.79  ,    5.79 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+146 ,CHA LEAO ERVA DOCE 20G C10               , 1.0   ,UN      ,  3.88  ,    3.88 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+147 ,CHA LEAO PTO 16G C10                     , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+148 ,QUEIJO TIROL MUSS.CRY KG                 , 0.464 ,KG      , 50.9   ,   23.62 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+149 ,PEITO DE PERU SEARA DEF.FAT.200G         , 1.0   ,UN      ,  6.9   ,    6.9  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+150 ,CHOC.NESTLE PRESTIGIO CLASSIC 90G        , 1.0   ,UN      ,  3.79  ,    3.79 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+151 ,CHOC.NESTLE CRUNCH 90G                   , 1.0   ,UN      ,  3.79  ,    3.79 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+152 ,PAO DE MEL BARION 90G                    , 1.0   ,UN      ,  3.39  ,    3.39 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+153 ,PAO FRANCES KG                           , 0.292 ,KG      , 10.99  ,    3.21 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+154 ,RUCULA HIDROPONICA STRAPASSON 300G       , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+155 ,ALFACE HIDROPONICA STRAPASSONCTBA        , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+156 ,SABAO LIQ.OMO PURO CUIDADO 900ML REFIL   , 1.0   ,UN      , 15.9   ,   15.9  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+157 ,RACAO FRISKIES AD.FGOMOLHO 85G SACHE     , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+158 ,RACAO FRISKIES AD.FGOMOLHO 85G SACHE     , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+159 ,ALGODAO TOPZ ZIG ZAG 25G                 , 1.0   ,UN      ,  2.59  ,    2.59 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+160 ,DESOD.REXONA CLINICAL WOMEN 48G          , 1.0   ,UN      , 25.5   ,   25.5  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+161 ,SAB.NIVEA INT.SVE 250ML                  , 1.0   ,UN      , 15.99  ,   15.99 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+162 ,RACAO DREAMIES CNE 40G                   , 1.0   ,UN      ,  6.19  ,    6.19 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 13:25:43
+163 ,FRALDA HUGGIES S.CARE MEGA RN C34        , 1.0   ,UN      , 33.45  ,   33.45 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 14:26:27
+164 ,FRALDA HUGGIES S.CARE MEGA P C48         , 1.0   ,UN      , 45.9   ,   45.9  ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 14:26:27
+165 ,TOALHINHA UMED.HUGGIES SUP.C192 LP-      , 1.0   ,UN      , 47.89  ,   47.89 ,CONDOR SUPER CENTER LTDA                            ,10/04/2022 14:26:27
+166 ,PAO DOGUINHO RECHEADO                    , 0.174 ,KG      , 66.15  ,   11.51 ,TRIGALHOS ALIMENTOS EIRELI - EPP                    ,12/04/2022 18:07:42
+167 ,PAO D AGUA                               , 0.244 ,KG      , 19.95  ,    4.87 ,TRIGALHOS ALIMENTOS EIRELI - EPP                    ,12/04/2022 18:07:42
+168 ,BAGUETE PROVOLONE PADRAO                 , 0.076 ,KG      , 67.75  ,    5.15 ,TRIGALHOS ALIMENTOS EIRELI - EPP                    ,12/04/2022 18:07:42
+169 ,AREIA PIPICAT FLORAL 4KG                 , 1.0   ,UN      , 18.98  ,   18.98 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+170 ,RACAO FANCY FEAST FILET SALMAO 85GR      , 1.0   ,UN      ,  5.65  ,    5.65 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+171 ,RACAO FANCY F.CASS ATUM SALMAO 85GR      , 1.0   ,UN      ,  5.65  ,    5.65 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+172 ,RACAO FRISKIES PEIXE BRAN. AO MOLHO 85GR , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+173 ,SNACK WHISKAS DREAMIES CARNE 40GR        , 1.0   ,UN      ,  5.49  ,    5.49 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+174 ,PRESUNTO FRIMESA COZ.200GR               , 1.0   ,UN      ,  8.99  ,    8.99 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+175 ,PEITO COPACOL SOSSO SPELE KG             , 0.886 ,KG      , 19.98  ,   17.7  ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+176 ,PAO INTEGRAL FESTVAL 500GR               , 1.0   ,UN      ,  7.99  ,    7.99 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+177 ,AMEIXA IMPORTADA KG                      , 0.41  ,KG      , 12.99  ,    5.32 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+178 ,MACA FUJI NACIONAL KG                    , 0.595 ,KG      ,  9.99  ,    5.94 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+179 ,BANANA CATURRA KG                        , 1.285 ,KG      ,  5.99  ,    7.69 ,SUPERMERCADOS FESTVAL                               ,14/04/2022 19:46:19
+180 ,D. CHURROS                               , 1.0   ,UND     , 12.0   ,   12.0  ,DOFFEE LANCHONETE LTDA                              ,17/04/2022 17:30:10
+181 ,D. BANOFFEE                              , 1.0   ,UND     , 14.0   ,   14.0  ,DOFFEE LANCHONETE LTDA                              ,17/04/2022 17:30:10
+182 ,D. KINDER BUENO                          , 1.0   ,UND     , 17.0   ,   17.0  ,DOFFEE LANCHONETE LTDA                              ,17/04/2022 17:30:10
+183 ,D. HOMER SIMPSON                         , 1.0   ,UND     , 12.0   ,   12.0  ,DOFFEE LANCHONETE LTDA                              ,17/04/2022 17:30:10
+184 ,FEIJAO CALDO BOM CARIOCA 1KG             , 1.0   ,UN      ,  8.29  ,    8.29 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+185 ,FEIJAO CALDO BOM PTO 1KG                 , 1.0   ,UN      ,  8.19  ,    8.19 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+186 ,ARROZ BURITI BCO 1KG                     , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+187 ,FARINHA DE TRIGO ANACONDA 1KG            , 1.0   ,UN      ,  3.99  ,    3.99 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+188 ,DETERG.LIMPOL COCO 500ML                 , 1.0   ,UN      ,  2.19  ,    2.19 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+189 ,DETERG.LIMPOL COCO 500ML                 , 1.0   ,UN      ,  2.19  ,    2.19 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+190 ,PAPEL MANTEIGA COZINHA FACIL 30X7.5M     , 1.0   ,UN      ,  4.26  ,    4.26 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+191 ,FILME PVC COZINHA FACIL 28X30M           , 1.0   ,UN      ,  5.44  ,    5.44 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+192 ,FOLHA ALUMINIO COZINHA FACIL 30X7.5M     , 1.0   ,UN      ,  5.49  ,    5.49 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+193 ,CHIN.M.EMILIA SORT.MASC.3744             , 1.0   ,PC      , 49.9   ,   49.9  ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+194 ,TOALHA DE PAPEL SNOB C2 120F             , 1.0   ,UN      ,  5.09  ,    5.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+195 ,PAO DE FORMA VISCONTI TRAD.400G          , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+196 ,MIMOSAMEXIRICA KG                        , 0.555 ,KG      ,  4.98  ,    2.76 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+197 ,ALHO A GRANEL                            , 0.05  ,KG      , 21.9   ,    1.1  ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+198 ,MASSA NISSIN CNETOMATE 85G               , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+199 ,MASSA NISSIN CNETOMATE 85G               , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+200 ,MASSA NISSIN GALINHA CAIPIRA 85G         , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+201 ,MASSA NISSIN GALINHA CAIPIRA 85G         , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+202 ,ALFACE AMER.UN                           , 1.0   ,UN      ,  4.79  ,    4.79 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+203 ,POKAN KG                                 , 0.905 ,KG      ,  4.99  ,    4.52 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+204 ,BANANA CATURRA KG                        , 0.755 ,KG      ,  4.39  ,    3.31 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+205 ,IOG.FRIMESA NATURAL MRGO 165G            , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+206 ,IOG.FRIMESA NATURAL MRGO 165G            , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+207 ,IOG.NESTLE NATURAL MEL 170G              , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+208 ,IOG.NESTLE NATURAL MEL 170G              , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+209 ,BANANA CATURRA KG                        , 0.865 ,KG      ,  2.98  ,    2.58 ,SUPERMERCADO JACOMAR LTDA                           ,20/04/2022 13:12:19
+210 ,SANDUICHE SALAME JACOMAR KG              , 0.178 ,KG      , 30.98  ,    5.51 ,SUPERMERCADO JACOMAR LTDA                           ,20/04/2022 13:12:19
+211 ,MINI PASTEL DE CARNE KG                  , 0.14  ,KG      , 41.9   ,    5.87 ,SUPERMERCADO JACOMAR LTDA                           ,20/04/2022 13:12:19
+212 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,20/04/2022 13:12:19
+213 ,REFRIG.COCA COLA LATA 350ML              , 1.0   ,LT      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,20/04/2022 13:12:19
+214 ,Rodeio Duplo                             , 1.0   ,UN      , 10.0   ,   10.0  ,BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S.A. ,23/04/2022 20:28:13
+215 ,Rodeio Duplo                             , 1.0   ,UN      , 10.0   ,   10.0  ,BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S.A. ,23/04/2022 20:28:13
+216 ,Chicken Duplo                            , 1.0   ,UN      ,  8.55  ,    8.55 ,BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S.A. ,23/04/2022 20:28:13
+217 ,Chicken Duplo                            , 1.0   ,UN      ,  8.55  ,    8.55 ,BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S.A. ,23/04/2022 20:28:13
+218 ,REFRI PEPSI LATA                         , 1.0   ,UN      , 12.9   ,   12.9  ,BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S.A. ,23/04/2022 20:28:13
+219 ,REFRI GUARANA LATA                       , 1.0   ,UN      , 12.9   ,   12.9  ,BK BRASIL OPERACAO E ASSESSORIA A RESTAURANTES S.A. ,23/04/2022 20:28:13
+220 ,CERV.PATAGONIA AMBER LAGER 473ML LA      , 6.0   ,UN      ,  5.99  ,   35.94 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+221 ,HAMBURGUER SEARA GOURMET BOVINO 360G     , 1.0   ,UN      , 18.9   ,   18.9  ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+222 ,KETCHUP HEINZ 1.033KG                    , 1.0   ,UN      , 19.59  ,   19.59 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+223 ,QUEIJO PRATO TIROL FAT.150G              , 1.0   ,UN      ,  7.89  ,    7.89 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+224 ,QUEIJO FRIMESA MUSS.CRY KG               , 0.49  ,KG      , 59.85  ,   29.33 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+225 ,BACON BIZINELLI VACUO KG                 , 0.382 ,KG      , 44.35  ,   16.94 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+226 ,OLEO LIZA SOJA 900ML PET                 , 1.0   ,UN      ,  9.99  ,    9.99 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+227 ,DOCE DE LEITE TIROL 350G                 , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+228 ,CHA LEAO PTO 16G C10                     , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+229 ,PAO DE QUEIJO FORNO DE MINAS MINI KG     , 0.216 ,KG      , 44.9   ,    9.7  ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+230 ,PAO DE HAMBURGUER CONDOR CGERGELIM 280G  , 1.0   ,UN      ,  4.89  ,    4.89 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+231 ,PAO CHARLOTTE MULTIGRAOS 450G            , 1.0   ,UN      ,  6.69  ,    6.69 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+232 ,MIMOSAMEXIRICA KG                        , 0.595 ,KG      ,  3.98  ,    2.37 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+233 ,PAO PETROPOLIS KG                        , 0.45  ,KG      , 19.9   ,    8.96 ,CONDOR SUPER CENTER LTDA                            ,26/04/2022 18:14:27
+234 ,PRES OLLA SENSITIVE LV8 PG6              , 1.0   ,UN      , 18.99  ,   18.99 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,29/04/2022 20:59:19
+235 ,PRES BLOWTEX ZERO C 6 UN                 , 1.0   ,UN      , 13.99  ,   13.99 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,29/04/2022 20:59:19
+236 ,PRES JONTEX SENSITIVE C 6                , 1.0   ,UN      , 17.99  ,   17.99 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,29/04/2022 20:59:19
+237 ,BISC NESTLE RECHEADO PRESTIGIO 140G      , 1.0   ,UN      ,  4.99  ,    4.99 ,POSTO METROPOLE BRASIL LTDA                         ,28/04/2022 17:12:08
+238 ,ETANOL HIDRATADO COMBUSTIVEL Bico 09     ,16.67  ,L       ,  5.999 ,  100.0  ,POSTO METROPOLE BRASIL LTDA                         ,28/04/2022 17:12:08
+239 ,PRES OLLA SENSITIVE LV8 PG6              , 1.0   ,UN      , 18.99  ,   18.99 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,29/04/2022 20:59:19
+240 ,PRES BLOWTEX ZERO C 6 UN                 , 1.0   ,UN      , 13.99  ,   13.99 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,29/04/2022 20:59:19
+241 ,PRES JONTEX SENSITIVE C 6                , 1.0   ,UN      , 17.99  ,   17.99 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,29/04/2022 20:59:19
+242 ,ABSORV.S.LIVRE ADAP.MAX SUAVE CABAS 8UN  , 1.0   ,UN      ,  6.39  ,    6.39 ,SUPERMERCADOS FESTVAL                               ,30/04/2022 19:00:14
+243 ,AGUA COCO FESTVAL 100 NATURAL 1L         , 1.0   ,UN      , 10.98  ,   10.98 ,SUPERMERCADOS FESTVAL                               ,30/04/2022 19:00:14
+244 ,VHO ITA.PRIM.MAND.LIRICA TTO 750ML       , 1.0   ,UN      , 79.0   ,   79.0  ,SUPERMERCADOS FESTVAL                               ,30/04/2022 19:00:14
+245 ,ABSORV.S.LIVRE ADAP.MAX SUAVE CABAS 8UN  , 1.0   ,UN      ,  6.39  ,    6.39 ,SUPERMERCADOS FESTVAL                               ,30/04/2022 19:00:14
+246 ,AGUA COCO FESTVAL 100 NATURAL 1L         , 1.0   ,UN      , 10.98  ,   10.98 ,SUPERMERCADOS FESTVAL                               ,30/04/2022 19:00:14
+247 ,VHO ITA.PRIM.MAND.LIRICA TTO 750ML       , 1.0   ,UN      , 79.0   ,   79.0  ,SUPERMERCADOS FESTVAL                               ,30/04/2022 19:00:14
+248 ,ETANOL HIDRATADO COMBUSTIVEL Bico 01     , 8.836 ,L       ,  5.659 ,   50.0  ,POSTO METROPOLE BRASIL LTDA                         ,02/05/2022 17:10:45
+249 ,MINI PASTEL DE CARNE                     , 0.092 ,KG      , 73.4   ,    6.75 ,CONFEITARIA REQUINTE EIRELI - EPP                   ,02/05/2022 19:37:36
+250 ,PAO DOGUINHO RECHEADO                    , 0.258 ,KG      , 70.15  ,   18.1  ,CONFEITARIA REQUINTE EIRELI - EPP                   ,02/05/2022 19:37:36
+251 ,CAPONATA DE BERINGELA COM UVA PASSA      , 0.15  ,KG      , 80.15  ,   12.02 ,CONFEITARIA REQUINTE EIRELI - EPP                   ,02/05/2022 19:37:36
+252 ,REFRIG.PEPSI TWIST LATA 350ML            , 1.0   ,UN      ,  2.49  ,    2.49 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+253 ,SANDUICHE SALAME JACOMAR KG              , 0.186 ,KG      , 30.98  ,    5.76 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+254 ,ESFIHA ABERTA SABORES KG                 , 0.152 ,KG      , 28.98  ,    4.4  ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+255 ,PAO QUEIJO RICO PALADAR P.KG             , 0.148 ,KG      , 29.98  ,    4.44 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+256 ,COXINHA DE FRANGO CREQUEJIAO KG          , 0.106 ,KG      , 36.98  ,    3.92 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+257 ,CHOC HERSHEYS 87G OVOMALTINE             , 1.0   ,UN      ,  4.48  ,    4.48 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+258 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+259 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+260 ,CREME DE LEITE FRIMESA 200G TP           , 1.0   ,UN      ,  2.99  ,    2.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+261 ,FAROFA MAND.YOKI TRAD.500G               , 1.0   ,UN      ,  6.49  ,    6.49 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+262 ,ESPETO FIAT LUX PCHURRASCO BAMBU C50     , 1.0   ,UN      ,  3.29  ,    3.29 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+263 ,CJ.SABAO LIQ.OMO CONC.P.CUID.500MLGF 3L  , 1.0   ,UN      , 32.9   ,   32.9  ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+264 ,PESSEGO NEUMANN EM CALDA 450G            , 1.0   ,UN      ,  8.99  ,    8.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+265 ,OLEO LIZA SOJA 900ML PET                 , 1.0   ,UN      ,  9.89  ,    9.89 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+266 ,FILE DE PEITO COPACOL RESF.600G BDJA     , 1.0   ,UN      , 14.99  ,   14.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+267 ,FILE DE PEITO COPACOL RESF.600G BDJA     , 1.0   ,UN      , 14.99  ,   14.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+268 ,SOBRECOXA SEARA RESF.KG                  , 0.65  ,KG      , 15.9   ,   10.34 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+269 ,CARNE MOIDA BOVINA 500G                  , 1.0   ,UN      , 21.9   ,   21.9  ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+270 ,BATATA BRANCA KG                         , 0.69  ,KG      ,  6.99  ,    4.82 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+271 ,CENOURA KG                               , 0.465 ,KG      ,  6.99  ,    3.25 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+272 ,CEBOLA KG                                , 0.815 ,KG      ,  5.99  ,    4.88 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+273 ,VAGEM MACARRAO KG                        , 0.16  ,KG      , 10.99  ,    1.76 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+274 ,PEPINO SALADACAIPIRA KG                  , 0.68  ,KG      ,  3.79  ,    2.58 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+275 ,ABOBRINHA VERDE KG                       , 0.735 ,KG      ,  3.59  ,    2.64 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+276 ,IOG.NESTLE NATURAL MEL 170G              , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+277 ,IOG.NESTLE NATURAL INTEG.170G            , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+278 ,ALHO A GRANEL                            , 0.055 ,KG      , 19.7   ,    1.08 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+279 ,POKAN KG                                 , 0.51  ,KG      ,  4.99  ,    2.54 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+280 ,BANANA CATURRA KG                        , 0.67  ,KG      ,  2.78  ,    1.86 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+281 ,MAMAO HAVAIPAPAYA KG                     , 0.425 ,KG      ,  8.89  ,    3.78 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+282 ,ALFACE CRESPA UN                         , 1.0   ,UN      ,  3.29  ,    3.29 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+283 ,TOMATE ITALIANO KG                       , 0.575 ,KG      ,  6.98  ,    4.01 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+284 ,TOMATE KG                                , 0.31  ,KG      ,  4.99  ,    1.55 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+285 ,MIMOSAMEXIRICA KG                        , 0.305 ,KG      ,  4.98  ,    1.52 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+286 ,ALFACE AMER.UN                           , 1.0   ,UN      ,  4.29  ,    4.29 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+287 ,OVOS PVC BCO MED.C30                     , 1.0   ,UN      , 15.95  ,   15.95 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+288 ,CHA MATTE LEAO LIMAO PET 1.5L            , 1.0   ,UN      ,  5.29  ,    5.29 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+289 ,SALG.DORITOS QUEIJO NACHO 300GR          , 1.0   ,UN      , 21.99  ,   21.99 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+290 ,PIMENTA DEDO DE MOCA BERTOLIN 100GR      , 1.0   ,UN      ,  5.39  ,    5.39 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+291 ,PIMENTAO VERMELHO KG                     , 0.185 ,KG      , 19.99  ,    3.69 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+292 ,CEBOLA KG                                , 0.485 ,KG      ,  8.99  ,    4.36 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+293 ,LIMAO SICILIANO KG                       , 0.265 ,KG      , 11.99  ,    3.17 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+294 ,LIMAO THAITI KG                          , 0.385 ,KG      ,  3.59  ,    1.38 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+295 ,TOMATE KG                                , 0.985 ,KG      ,  9.99  ,    9.84 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+296 ,MOLHO HEMMER PIMENTA 150ML               , 1.0   ,UN      ,  5.98  ,    5.98 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+297 ,RACAO FRISKIES CARNE AO MOLHO 85GR       , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+298 ,RACAO FRISKIES FRANGO AO MOLHO 85GR      , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+299 ,RACAO FRISKIES CORDEIRO AO MOLHO 85GR    , 1.0   ,UN      ,  3.19  ,    3.19 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+300 ,PIMENTAO AMARELO KG                      , 0.14  ,KG      , 19.99  ,    2.79 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+301 ,BANANA CATURRA KG                        , 1.085 ,KG      ,  5.99  ,    6.49 ,SUPERMERCADOS FESTVAL                               ,07/05/2022 18:25:55
+302 ,ETANOL HIDRATADO COMBUSTIVEL Bico 01     , 8.836 ,L       ,  5.659 ,   50.0  ,POSTO METROPOLE BRASIL LTDA                         ,02/05/2022 17:10:45
+303 ,REFRIG.PEPSI TWIST LATA 350ML            , 1.0   ,UN      ,  2.49  ,    2.49 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+304 ,SANDUICHE SALAME JACOMAR KG              , 0.186 ,KG      , 30.98  ,    5.76 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+305 ,ESFIHA ABERTA SABORES KG                 , 0.152 ,KG      , 28.98  ,    4.4  ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+306 ,PAO QUEIJO RICO PALADAR P.KG             , 0.148 ,KG      , 29.98  ,    4.44 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+307 ,COXINHA DE FRANGO CREQUEJIAO KG          , 0.106 ,KG      , 36.98  ,    3.92 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+308 ,CHOC HERSHEYS 87G OVOMALTINE             , 1.0   ,UN      ,  4.48  ,    4.48 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+309 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+310 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,03/05/2022 12:28:20
+311 ,FEIJAO CALDO BOM CARIOCA 1KG             , 1.0   ,UN      ,  8.29  ,    8.29 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+312 ,FEIJAO CALDO BOM PTO 1KG                 , 1.0   ,UN      ,  8.19  ,    8.19 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+313 ,ARROZ BURITI BCO 1KG                     , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+314 ,FARINHA DE TRIGO ANACONDA 1KG            , 1.0   ,UN      ,  3.99  ,    3.99 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+315 ,DETERG.LIMPOL COCO 500ML                 , 1.0   ,UN      ,  2.19  ,    2.19 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+316 ,DETERG.LIMPOL COCO 500ML                 , 1.0   ,UN      ,  2.19  ,    2.19 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+317 ,PAPEL MANTEIGA COZINHA FACIL 30X7.5M     , 1.0   ,UN      ,  4.26  ,    4.26 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+318 ,FILME PVC COZINHA FACIL 28X30M           , 1.0   ,UN      ,  5.44  ,    5.44 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+319 ,FOLHA ALUMINIO COZINHA FACIL 30X7.5M     , 1.0   ,UN      ,  5.49  ,    5.49 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+320 ,CHIN.M.EMILIA SORT.MASC.3744             , 1.0   ,PC      , 49.9   ,   49.9  ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+321 ,TOALHA DE PAPEL SNOB C2 120F             , 1.0   ,UN      ,  5.09  ,    5.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+322 ,PAO DE FORMA VISCONTI TRAD.400G          , 1.0   ,UN      ,  4.99  ,    4.99 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+323 ,MIMOSAMEXIRICA KG                        , 0.555 ,KG      ,  4.98  ,    2.76 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+324 ,ALHO A GRANEL                            , 0.05  ,KG      , 21.9   ,    1.1  ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+325 ,MASSA NISSIN CNETOMATE 85G               , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+326 ,MASSA NISSIN CNETOMATE 85G               , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+327 ,MASSA NISSIN GALINHA CAIPIRA 85G         , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+328 ,MASSA NISSIN GALINHA CAIPIRA 85G         , 1.0   ,UN      ,  2.09  ,    2.09 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+329 ,ALFACE AMER.UN                           , 1.0   ,UN      ,  4.79  ,    4.79 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+330 ,POKAN KG                                 , 0.905 ,KG      ,  4.99  ,    4.52 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+331 ,BANANA CATURRA KG                        , 0.755 ,KG      ,  4.39  ,    3.31 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+332 ,IOG.FRIMESA NATURAL MRGO 165G            , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+333 ,IOG.FRIMESA NATURAL MRGO 165G            , 1.0   ,UN      ,  2.69  ,    2.69 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+334 ,IOG.NESTLE NATURAL MEL 170G              , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+335 ,IOG.NESTLE NATURAL MEL 170G              , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,18/04/2022 15:31:42
+336 ,CREME DE LEITE FRIMESA 200G TP           , 1.0   ,UN      ,  2.99  ,    2.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+337 ,FAROFA MAND.YOKI TRAD.500G               , 1.0   ,UN      ,  6.49  ,    6.49 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+338 ,ESPETO FIAT LUX PCHURRASCO BAMBU C50     , 1.0   ,UN      ,  3.29  ,    3.29 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+339 ,CJ.SABAO LIQ.OMO CONC.P.CUID.500MLGF 3L  , 1.0   ,UN      , 32.9   ,   32.9  ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+340 ,PESSEGO NEUMANN EM CALDA 450G            , 1.0   ,UN      ,  8.99  ,    8.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+341 ,OLEO LIZA SOJA 900ML PET                 , 1.0   ,UN      ,  9.89  ,    9.89 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+342 ,FILE DE PEITO COPACOL RESF.600G BDJA     , 1.0   ,UN      , 14.99  ,   14.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+343 ,FILE DE PEITO COPACOL RESF.600G BDJA     , 1.0   ,UN      , 14.99  ,   14.99 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+344 ,SOBRECOXA SEARA RESF.KG                  , 0.65  ,KG      , 15.9   ,   10.34 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+345 ,CARNE MOIDA BOVINA 500G                  , 1.0   ,UN      , 21.9   ,   21.9  ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+346 ,BATATA BRANCA KG                         , 0.69  ,KG      ,  6.99  ,    4.82 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+347 ,CENOURA KG                               , 0.465 ,KG      ,  6.99  ,    3.25 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+348 ,CEBOLA KG                                , 0.815 ,KG      ,  5.99  ,    4.88 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+349 ,VAGEM MACARRAO KG                        , 0.16  ,KG      , 10.99  ,    1.76 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+350 ,PEPINO SALADACAIPIRA KG                  , 0.68  ,KG      ,  3.79  ,    2.58 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+351 ,ABOBRINHA VERDE KG                       , 0.735 ,KG      ,  3.59  ,    2.64 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+352 ,IOG.NESTLE NATURAL MEL 170G              , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+353 ,IOG.NESTLE NATURAL INTEG.170G            , 1.0   ,UN      ,  2.79  ,    2.79 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+354 ,ALHO A GRANEL                            , 0.055 ,KG      , 19.7   ,    1.08 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+355 ,POKAN KG                                 , 0.51  ,KG      ,  4.99  ,    2.54 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+356 ,BANANA CATURRA KG                        , 0.67  ,KG      ,  2.78  ,    1.86 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+357 ,MAMAO HAVAIPAPAYA KG                     , 0.425 ,KG      ,  8.89  ,    3.78 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+358 ,ALFACE CRESPA UN                         , 1.0   ,UN      ,  3.29  ,    3.29 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+359 ,TOMATE ITALIANO KG                       , 0.575 ,KG      ,  6.98  ,    4.01 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+360 ,TOMATE KG                                , 0.31  ,KG      ,  4.99  ,    1.55 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+361 ,MIMOSAMEXIRICA KG                        , 0.305 ,KG      ,  4.98  ,    1.52 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+362 ,ALFACE AMER.UN                           , 1.0   ,UN      ,  4.29  ,    4.29 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+363 ,OVOS PVC BCO MED.C30                     , 1.0   ,UN      , 15.95  ,   15.95 ,CONDOR SUPER CENTER LTDA                            ,08/05/2022 19:32:52
+364 ,CHOCOLATE                                , 1.0   ,UND     ,  2.0   ,    2.0  ,MMZB COMERCIO DE ALIMENTOS LTDA                     ,10/05/2022 21:17:39
+365 ,BRAHMA DUPLO MALTE                       , 1.0   ,UND     , 14.0   ,   14.0  ,MMZB COMERCIO DE ALIMENTOS LTDA                     ,10/05/2022 21:17:39
+366 ,SANDUICHE PARMEGIANA                     , 1.0   ,UND     , 22.0   ,   22.0  ,MMZB COMERCIO DE ALIMENTOS LTDA                     ,10/05/2022 21:17:39
+367 ,ADICIONAL DE BATATA                      , 1.0   ,UND     ,  8.0   ,    8.0  ,MMZB COMERCIO DE ALIMENTOS LTDA                     ,10/05/2022 21:17:39
+368 ,Taxa de se OS LTDA                     ,10/05/2022 21:17:39
+369 ,MAMAO FORMOSA KG                         , 1.625 ,KG      ,  4.59  ,    7.46 ,CONDOR SUPER CENTER LTDA                            ,11/05/2022 18:03:19
+370 ,LARANJA PERA KG                          , 0.725 ,KG      ,  1.97  ,    1.43 ,CONDOR SUPER CENTER LTDA                            ,11/05/2022 18:03:19
+371 ,SALGADINHOS RIZOLLI KG                   , 0.184 ,KG      , 44.9   ,    8.26 ,CONDOR SUPER CENTER LTDA                            ,11/05/2022 18:03:19
+372 ,PAO FRANCES KG                           , 0.5   ,KG      , 10.99  ,    5.5  ,CONDOR SUPER CENTER LTDA                            ,11/05/2022 18:03:19
+373 ,ARROZ TIO URBANO BCO 1KG                 , 1.0   ,UN      ,  5.95  ,    5.95 ,CONDOR SUPER CENTER LTDA                            ,11/05/2022 18:03:19
+374 ,SANDUICHE SALAME JACOMAR KG              , 0.194 ,KG      , 30.98  ,    6.01 ,SUPERMERCADO JACOMAR LTDA                           ,20/05/2022 12:49:46
+375 ,PAO QUEIJO RICO PALADAR P.KG             , 0.134 ,KG      , 27.98  ,    3.75 ,SUPERMERCADO JACOMAR LTDA                           ,20/05/2022 12:49:46
+376 ,BOMBA DOCE LEITE KG                      , 0.162 ,KG      , 43.98  ,    7.12 ,SUPERMERCADO JACOMAR LTDA                           ,20/05/2022 12:49:46
+377 ,INFUSOR MIMO DE INOX PARA CHA AS         , 1.0   ,Un      , 12.5   ,   12.5  ,Lojas do Pedro Ltda                                 ,21/05/2022 12:29:33
+378 ,MEDIDOR KING JI11                        , 1.0   ,Un      , 14.9   ,   14.9  ,Lojas do Pedro Ltda                                 ,21/05/2022 12:29:33
+379 ,COLHER KING BAR BRS11                    , 1.0   ,Un      , 18.0   ,   18.0  ,Lojas do Pedro Ltda                                 ,21/05/2022 12:29:33
+380 ,COPO NADIR 2304 60ML                     , 4.0   ,Un      ,  3.6   ,   14.4  ,Lojas do Pedro Ltda                                 ,21/05/2022 12:29:33
+381 ,ETANOL                                   ,35.15  ,LT      ,  5.69  ,  200.0  ,LT NICHELE COMERCIO DE COMBUSTIVEIS LTDA            ,24/05/2022 06:26:42
+382 ,PAO CHEFF FOODS 300G                     , 1.0   ,Un      ,  4.99  ,    4.99 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+383 ,CHA PRETO LEAO 16G                       , 1.0   ,Un      ,  3.19  ,    3.19 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+384 ,SAB PROTEX 500ML                         , 1.0   ,Un      , 17.99  ,   17.99 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+385 ,APRESUNT FRIM 200G                       , 1.0   ,Un      ,  5.99  ,    5.99 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+386 ,QUEIJO FRIMESA 200G                      , 1.0   ,Un      , 12.49  ,   12.49 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+387 ,PAO FRANCES KG                           , 0.486 ,Kg      , 11.98  ,    5.82 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+388 ,NIGUIRI KG                               , 0.234 ,Kg      ,119.9   ,   28.06 ,IRMAOS MUFFATO S A                                  ,25/05/2022 18:05:44
+389 ,LIMP.DESTAC PISO MADEIRAS LAVALF.750ML   , 1.0   ,UN      , 13.99  ,   13.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+390 ,VEJA DESENG.LIMAO SQ.500ML 20 DESC.      , 1.0   ,UN      ,  9.59  ,    9.59 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+391 ,SAB.NIVEA HID.AVEIA 85GR                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+392 ,SAB.NIVEA HID.AVEIA 85GR                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+393 ,CR.DENTAL ORAL B 123 70GR                , 1.0   ,UN      ,  3.89  ,    3.89 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+394 ,SAB.NIVEA HIDRATANTE ORQUIDEAS 85G       , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+395 ,SAB.NIVEA HIDRATANTE ORQUIDEAS 85G       , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+396 ,BIFE PATINHO 1953 KG                     , 0.416 ,KG      , 57.9   ,   24.08 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+397 ,COXINHA DA ASA COPACOL KG                , 0.861 ,KG      , 13.9   ,   11.96 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+398 ,PEITO DE PERU SADIA DEF.FATIADO KG       , 0.108 ,KG      , 66.9   ,    7.22 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+399 ,HAMBURGUER ANGUS CARAPRETA 360GR         , 1.0   ,UN      , 17.99  ,   17.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+400 ,BACON FRIMESA PED.KG                     , 0.378 ,KG      , 53.9   ,   20.37 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+401 ,CAPELETTI MEZZANI CARNE 400GR            , 1.0   ,UN      ,  9.98  ,    9.98 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+402 ,LING.SEARA CALAB.400GR                   , 1.0   ,UN      , 12.98  ,   12.98 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+403 ,QUEIJO EL MAESTRO PARMESAO URUGUAIO KG   , 0.242 ,KG      , 89.9   ,   21.75 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+404 ,QUEIJO SANDWICH IN PRATO 144GR           , 1.0   ,UN      , 11.39  ,   11.39 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+405 ,BANANA CATURRA KG                        , 1.0   ,KG      ,  2.99  ,    2.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+406 ,BANANA CATURRA KG                        , 0.935 ,KG      ,  2.99  ,    2.79 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+407 ,BROCOLIS DO VALE HONEST NINJA 300GR      , 1.0   ,UN      ,  4.99  ,    4.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+408 ,ERVILHA QUERO LT.170G                    , 1.0   ,UN      ,  3.39  ,    3.39 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+409 ,MILHO VERDE QUERO LATA 170G              , 1.0   ,UN      ,  3.99  ,    3.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+410 ,PAO INTEGRAL FESTVAL 500GR               , 1.0   ,UN      ,  5.99  ,    5.99 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+411 ,BERINJELA COMUM KG                       , 0.52  ,KG      ,  5.99  ,    3.11 ,SUPERMERCADOS FESTVAL                               ,15/05/2022 15:30:13
+412 ,MINI PASTEL DE QUEIJO KG                 , 0.122 ,KG      , 43.9   ,    5.36 ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+413 ,SANDUICHE SALAME JACOMAR KG              , 0.158 ,KG      , 30.98  ,    4.89 ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+414 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.192 ,KG      , 36.98  ,    7.1  ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+415 ,PAO QUEIJO RICO PALADAR P.KG             , 0.128 ,KG      , 29.98  ,    3.84 ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+416 ,MANGA TOMMY KG                           , 0.965 ,KG      ,  5.99  ,    5.78 ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+417 ,PONKAN KG                                , 0.805 ,KG      ,  3.98  ,    3.2  ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+418 ,LARANJA PERA KG                          , 1.03  ,KG      ,  3.59  ,    3.7  ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+419 ,MACA GALA KG                             , 0.69  ,KG      ,  8.99  ,    6.2  ,SUPERMERCADO JACOMAR LTDA                           ,13/05/2022 12:40:43
+420 ,ESFIHA ABERTA SABORES KG                 , 0.164 ,KG      , 28.98  ,    4.75 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+421 ,BOMBA DOCE LEITE KG                      , 0.078 ,KG      , 43.98  ,    3.43 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+422 ,SANDUICHE SALAME JACOMAR KG              , 0.176 ,KG      , 30.98  ,    5.45 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+423 ,PAO QUEIJO RICO PALADAR P.KG             , 0.152 ,KG      , 29.98  ,    4.56 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+424 ,AGUA TONICA ANTARTICA LATA 350ML         , 1.0   ,UN      ,  2.49  ,    2.49 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+425 ,AGUA TONICA ANTARTICA LATA 350ML         , 1.0   ,UN      ,  2.49  ,    2.49 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+426 ,AGUA TONICA SCHWEPPES LATA 350ML         , 1.0   ,UN      ,  2.88  ,    2.88 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+427 ,AGUA TONICA SCHWEPPES LATA 350ML         , 1.0   ,UN      ,  2.88  ,    2.88 ,SUPERMERCADO JACOMAR LTDA                           ,27/05/2022 13:24:20
+428 ,BANANA CATURRA KG                        , 1.46  ,KG      ,  2.98  ,    4.35 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+429 ,MACA FUJI KG                             , 0.73  ,KG      ,  9.99  ,    7.29 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+430 ,PONKAN KG                                , 0.76  ,KG      ,  2.98  ,    2.26 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+431 ,BATATA KG                                , 1.17  ,KG      ,  4.99  ,    5.84 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+432 ,AGUA SANITARIA GIRANDO SOL 2L            , 1.0   ,UN      ,  5.98  ,    5.98 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+433 ,TOMATE KG                                , 0.925 ,KG      ,  7.99  ,    7.39 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+434 ,LIMAO TAITI KG                           , 0.705 ,KG      ,  1.98  ,    1.4  ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+435 ,CEBOLA KG                                , 0.83  ,KG      ,  5.49  ,    4.56 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+436 ,ACUCAR UNIAO NATURALE DEMERARA 1KG       , 1.0   ,UN      ,  6.99  ,    6.99 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+437 ,PAO SANDUICHE CHARLOTTE TRAD.400G        , 1.0   ,UN      ,  5.29  ,    5.29 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+438 ,SANDUICHE SALAME JACOMAR KG              , 0.162 ,KG      , 30.98  ,    5.02 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+439 ,MINI CHURROS DOCE DE LEITE KG            , 0.16  ,KG      , 36.98  ,    5.92 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+440 ,COXINHA DE FRANGO CREQUEJIAO KG          , 0.22  ,KG      , 36.98  ,    8.14 ,SUPERMERCADO JACOMAR LTDA                           ,30/05/2022 13:22:07
+441 ,IBUPROFENO 600MG 10 CAPS GEL GE ALT      , 1.0   ,UN      , 27.29  ,   27.29 ,FARMACIA IRMAOS PAVESI LTDA FILIAL 16               ,30/05/2022 19:44:03
+442 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+443 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+444 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+445 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+446 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+447 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+448 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+449 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+450 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+451 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+452 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+453 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+454 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+455 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+456 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+457 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+458 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+459 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+460 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+461 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+462 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+463 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+464 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+465 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+466 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+467 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+468 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+469 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+470 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+471 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+472 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+473 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+474 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+475 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+476 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+477 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+478 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+479 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+480 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+481 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+482 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+483 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+484 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+485 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+486 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+487 ,CERV EISENBAHN 350ML                     , 1.0   ,Un      ,  3.59  ,    3.59 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+488 ,CERV EISENBAHN 350ML                     , 1.0   ,Un      ,  3.59  ,    3.59 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+489 ,CERV EISENBAHN 350ML                     , 1.0   ,Un      ,  3.59  ,    3.59 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+490 ,CERV EISENBAHN 350ML                     , 1.0   ,Un      ,  3.59  ,    3.59 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+491 ,REFRIG SCHWEP 220ML                      , 1.0   ,Un      ,  2.19  ,    2.19 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+492 ,REFRIG SCHWEP 220ML                      , 1.0   ,Un      ,  2.19  ,    2.19 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+493 ,ESPONJA SCOTCH B UN                      , 1.0   ,Un      ,  8.19  ,    8.19 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+494 ,RACAO FRISKIES 85G                       , 1.0   ,Un      ,  2.89  ,    2.89 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+495 ,RACAO FRISKIES 85G                       , 1.0   ,Un      ,  2.89  ,    2.89 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+496 ,RACAO FRISKIES 85G                       , 1.0   ,Un      ,  2.89  ,    2.89 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+497 ,RACAO FRISKIES 85G                       , 1.0   ,Un      ,  2.89  ,    2.89 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+498 ,MAC NISSIN LAMEN 85G                     , 1.0   ,Un      ,  1.79  ,    1.79 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+499 ,MOLHO POMAROL 320G                       , 1.0   ,Un      ,  2.89  ,    2.89 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+500 ,MOLHO POMAROL 320G                       , 1.0   ,Un      ,  2.89  ,    2.89 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+501 ,CHEDDAR FRIMESA 200G                     , 1.0   ,Un      , 16.49  ,   16.49 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+502 ,MAC NISSIN LAMEN 85G                     , 1.0   ,Un      ,  1.79  ,    1.79 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+503 ,APRESUNT FRIM 200G                       , 1.0   ,Un      ,  6.29  ,    6.29 ,IRMAOS MUFFATO S A                                  ,01/06/2022 18:23:41
+504 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+505 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+506 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+507 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+508 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+509 ,SANDUICHE NAT.FRANGO JACOMAR KG          , 0.166 ,KG      , 27.98  ,    4.64 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+510 ,MINI RISOLES DE CARNE KG                 , 0.082 ,KG      , 36.98  ,    3.03 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+511 ,CROISSANT FOLHADO FRANGO CREQUEIJAO KG   , 0.092 ,KG      , 36.98  ,    3.4  ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+512 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
+513 ,CHOC NESTLE KITKAT 41.5G                 , 1.0   ,UN      ,  2.99  ,    2.99 ,SUPERMERCADO JACOMAR LTDA                           ,01/06/2022 13:17:09
