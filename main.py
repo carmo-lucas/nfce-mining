@@ -1,18 +1,23 @@
 # Dependencies -----
 import sys
 import time
-from NFCE import header
-from NFCE import body
-
+from NFCE import header, body
 
 # Grupo 1 é a parte necessária
 validacao_url = u"(http\:\/\/www\.fazenda\.pr\.gov\.br\/nfce\/qrcode\?p\=\d{44})(\|\d){3}\|\w{40}"
+
 url = "http://www.fazenda.pr.gov.br/nfce/qrcode?p=41220576189406002250651160003910901081932515|2|1|1|8172512119B92F5F4BBCF8D1E4FF617D304FD593"
 
 
-header.get_metadata(url)
+metadata = header.get_metadata(url)
 
-body.read_raw_table(url)
+page = header.request_nfce_page(url)
 
+tbl = body.read_raw_table(url)
 
+tbl = body.clean_strings(tbl)
+
+tbl = body.separate_columns(tbl)
+
+tbl = body.parse_doubles(tbl, metadata)
 
