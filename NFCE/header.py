@@ -33,11 +33,17 @@ def fetch_nfce_number(page):
     numero_nfce = re.search(r"Número: (\d+)", numero_nfce).group(1)
     return numero_nfce
 
-def fetch_access_key(page):
-    
-    chave_acesso = page.find("span", {"class": "chave"}).text
-    chave_acesso = re.sub(" ", "", chave_acesso)
-    return chave_acesso
+def fetch_access_key(x):
+    if isinstance(x, str):
+        page = request_nfce_page(x)
+        chave_acesso = page.find("span", {"class": "chave"}).text
+        chave_acesso = re.sub(" ", "", chave_acesso)
+        return chave_acesso
+    else:
+        chave_acesso = x.find("span", {"class": "chave"}).text
+        chave_acesso = re.sub(" ", "", chave_acesso)
+        return chave_acesso
+
 
 # Função para extrair metadados conta despesa, data da transação, número da nfce e cnpj
 def get_metadata(url):
