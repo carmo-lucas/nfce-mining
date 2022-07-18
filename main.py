@@ -21,3 +21,4 @@ tbl = body.separate_columns(tbl)
 
 tbl = body.parse_doubles(tbl, metadata)
 
+tbl = tbl.body.categorize_items(tbl)
