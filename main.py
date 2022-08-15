@@ -23,3 +23,4 @@ table = get_table(url)
 
 table
 
+tbl = tbl.body.categorize_items(tbl)

@@ -25,7 +25,6 @@ def separate_columns(tbl):
 
     # Remove colunas que já foram transformadas
     tbl = tbl.drop(columns=[0, 1])
-
     return tbl
 
 def parse_doubles(tbl):
@@ -40,3 +39,8 @@ def parse_doubles(tbl):
 def fetch_ID(tbl, meta):
     tbl[['ID']] = meta["chave_acesso"] # isso não é uma boa ideia
     return tbl
+
+
+
+def categorize_items(tbl):
+    tokens = tbl[["nome"]]
