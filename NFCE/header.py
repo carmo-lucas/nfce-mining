@@ -44,7 +44,6 @@ def fetch_access_key(x):
         chave_acesso = re.sub(" ", "", chave_acesso)
         return chave_acesso
 
-
 # Função para extrair metadados conta despesa, data da transação, número da nfce e cnpj
 def get_metadata(url):
 

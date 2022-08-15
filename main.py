@@ -9,15 +9,17 @@ validacao_url = u"(http\:\/\/www\.fazenda\.pr\.gov\.br\/nfce\/qrcode\?p\=\d{44})
 url = "http://www.fazenda.pr.gov.br/nfce/qrcode?p=41220576189406002250651160003910901081932515|2|1|1|8172512119B92F5F4BBCF8D1E4FF617D304FD593"
 
 
-metadata = header.get_metadata(url)
+def get_table(url):
+    metadata = header.get_metadata(url)
+    page = header.request_nfce_page(url)
+    tbl = body.read_raw_table(url)
+    tbl = body.clean_strings(tbl)
+    tbl = body.separate_columns(tbl)
+    tbl = body.parse_doubles(tbl)
+    tbl = body.fetch_ID(tbl, metadata)
+    return tbl
 
-page = header.request_nfce_page(url)
+table = get_table(url)
 
-tbl = body.read_raw_table(url)
-
-tbl = body.clean_strings(tbl)
-
-tbl = body.separate_columns(tbl)
-
-tbl = body.parse_doubles(tbl, metadata)
+table
 

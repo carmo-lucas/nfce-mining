@@ -28,13 +28,15 @@ def separate_columns(tbl):
 
     return tbl
 
-def parse_doubles(tbl, meta):
+def parse_doubles(tbl):
 # TODO: Pensar em como melhorar essa função parse_doubles para ser um pouco mais robusta, remover os dois argumentos
     
     # Troca vírgulas por pontos para futura conversão para valores numéricos
     tbl = tbl.replace(",", ".", regex=True)
     # Remove espaços das células e converte para numérico
     tbl[['qtde', 'vl_unit', 'vl_total']] = tbl[['qtde', 'vl_unit','vl_total']].replace(" ", "", regex=True).astype('float64')
-    tbl[['ID']] = meta["chave_acesso"] # isso não é uma boa ideia
     return tbl
 
+def fetch_ID(tbl, meta):
+    tbl[['ID']] = meta["chave_acesso"] # isso não é uma boa ideia
+    return tbl
