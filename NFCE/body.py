@@ -41,6 +41,5 @@ def fetch_ID(tbl, meta):
     return tbl
 
 
-
 def categorize_items(tbl):
     tokens = tbl[["nome"]]

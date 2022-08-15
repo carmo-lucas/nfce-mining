@@ -1,7 +1,7 @@
 # Dependencies -----
 import sys
 import time
-from NFCE import header, body
+from NFCE import header, body, parser
 
 # Grupo 1 é a parte necessária
 validacao_url = u"(http\:\/\/www\.fazenda\.pr\.gov\.br\/nfce\/qrcode\?p\=\d{44})(\|\d){3}\|\w{40}"
@@ -19,8 +19,8 @@ def get_table(url):
     tbl = body.fetch_ID(tbl, metadata)
     return tbl
 
+
 table = get_table(url)
 
-table
+tokens = table['nome'].str.split(' ')
 
-tbl = tbl.body.categorize_items(tbl)
