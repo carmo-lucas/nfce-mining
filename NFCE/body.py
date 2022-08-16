@@ -14,8 +14,8 @@ def clean_strings(tbl):
     texto_indesejado = u"\(Código: \d+\)|Qtde.:|UN: |Vl. Unit.:"
 
     # Remove texto dos valores numéricos
-    tbl['vl_total'] = tbl[1].str.replace(u"Vl. Total\s+", "")
-    tbl[0] = tbl[0].str.replace(texto_indesejado, "")
+    tbl['vl_total'] = tbl[1].str.replace(u"Vl. Total\s+", "", regex=True)
+    tbl[0] = tbl[0].str.replace(texto_indesejado, "",regex=True)
     return tbl
 
 def separate_columns(tbl):
